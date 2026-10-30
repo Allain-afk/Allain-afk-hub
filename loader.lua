@@ -79,10 +79,17 @@ if not fn then
     error("[ALLAIN-AFK HUB] Loader compile failed: "..tostring(err),0)
 end
 
+-- Suppress legacy Discord auto-copy in precompiled game payloads for now.
+pcall(function()
+    local env=(type(getgenv)=="function" and getgenv()) or _G
+    env.__SERENITY_DISCORD_NOTICE_AT=os.time()+315360000
+    env.__SERENITY_DISCORD_COPIED=true
+end)
+
 -- Run the selected Allain-afk Hub payload first.
 local results=table.pack(fn())
 
--- Rebrand any UI labels created by precompiled game payloads.
+-- Rebrand any UI labels and hide legacy Discord/Community cards created by precompiled game payloads.
 pcall(function()
     local function rebrandLabel(inst)
         if inst:IsA("TextLabel") or inst:IsA("TextButton") then
@@ -92,6 +99,10 @@ pcall(function()
                     inst.Text="ALLAIN-AFK HUB"
                 elseif t:find("SERENITY",1,true) or t:find("Serenity",1,true) then
                     inst.Text=t:gsub("SERENITY HUB","ALLAIN-AFK HUB"):gsub("Serenity Hub","Allain-afk Hub"):gsub("SERENITY","ALLAIN-AFK HUB"):gsub("Serenity","Allain-afk Hub")
+                end
+                if t:find("discord.gg/",1,true) or t=="Copy Discord Link" or t=="Join Discord  ↗" then
+                    local card=inst.Parent
+                    if card and card:IsA("GuiObject") then card.Visible=false end
                 end
             end
         end
@@ -130,10 +141,11 @@ pcall(function()
     env.__SERENITY_IDLE_CONNECTION=nil
 end)
 
+--[[ TODO: Uncomment and replace with your own Discord invite URL later.
 -- Copy the community invite at most once every 24 hours.
 -- This shares the same timestamp marker as the V3 UI, so one execution cannot copy twice.
 pcall(function()
-    local invite="https://discord.gg/pWPs7428wE"
+    local invite="https://discord.gg/YOUR_INVITE_HERE"
     local env=(type(getgenv)=="function" and getgenv()) or _G
     local now=os.time()
     local cooldown=24*60*60
@@ -167,5 +179,6 @@ pcall(function()
         pcall(writefile,marker,tostring(now))
     end
 end)
+]]
 
 return table.unpack(results,1,results.n)

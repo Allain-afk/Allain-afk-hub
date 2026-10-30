@@ -13,7 +13,7 @@ local Library = {}
 
 Library.Version = "12.6"
 Library.APIVersion = 1
-Library.DiscordInvite = "https://discord.gg/ccsvkN7Pp"
+Library.DiscordInvite = "" -- "https://discord.gg/YOUR_INVITE_HERE"
 
 local Theme = {
     BG = Color3.fromRGB(12,15,19),

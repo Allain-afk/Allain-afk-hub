@@ -20,7 +20,7 @@ local Library = {}
 Library.Version = "13.4-desktop-v3-search"
 Library.APIVersion = 3
 Library.RendererKind = "Desktop"
-Library.DiscordInvite = "https://discord.gg/ccsvkN7Pp"
+Library.DiscordInvite = "" -- "https://discord.gg/YOUR_INVITE_HERE"
 
 
 -- Official lifecycle sink. Global UserInputService connections must be

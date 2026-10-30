@@ -5102,6 +5102,7 @@ if type(rapManifest)=="table" and type(rapManifest.Pages)=="table" then
             sub.TextTruncate=Enum.TextTruncate.AtEnd
         end
 
+        --[[ TODO: Uncomment and set your own Discord invite URL later
         local community=card(dashboard,85,7)
         Icons.Create(community,"discord",24,Tokens.Color.Accent,UDim2.fromOffset(14,15))
         headline(community,"Allain-afk Hub Discord",48,10,-180,23,15)
@@ -5115,9 +5116,9 @@ if type(rapManifest)=="table" and type(rapManifest.Pages)=="table" then
                 Callback=function(confirmed)
                     if not confirmed then return end
                     local copy=setclipboard or toclipboard
-                    local ok=type(copy)=="function" and pcall(copy,"https://discord.gg/pWPs7428wE")
+                    local ok=type(copy)=="function" and pcall(copy,"https://discord.gg/YOUR_INVITE_HERE")
                     app:Notify("Allain-afk Hub",ok and "Invite copied." or
-                        "discord.gg/pWPs7428wE",5,ok and "Success" or "Info")
+                        "discord.gg/YOUR_INVITE_HERE",5,ok and "Success" or "Info")
                 end,
             })
         end)
@@ -5130,6 +5131,7 @@ if type(rapManifest)=="table" and type(rapManifest.Pages)=="table" then
         end
         runtime:TrackConnection(community:GetPropertyChangedSignal("AbsoluteSize"):Connect(arrangeCommunity))
         arrangeCommunity()
+        ]]
 
         -- Keep the original Dashboard manifest help/status data as a real
         -- full-width section at the bottom, rather than a half-width ghost.

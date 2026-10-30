@@ -7410,7 +7410,7 @@ M.App = (function()
 return function(M,options)
     options=options or {}
     options.AssetBase=options.AssetBase or 'https://raw.githubusercontent.com/MUshihara/SerenityNewUi/77e5a1d2a4bc5e662bf52258a22b2976aedba1f8/prototype/assets/'
-    options.DiscordInvite='https://discord.gg/pWPs7428wE'
+    options.DiscordInvite='' -- 'https://discord.gg/YOUR_INVITE_HERE'
     local sourceManifest=options.Manifest or M.Manifest
     local manifest={};for k,v in pairs(sourceManifest)do manifest[k]=v end
     manifest.Pages={};for _,page in ipairs(sourceManifest.Pages)do manifest.Pages[#manifest.Pages+1]=page end
@@ -7481,17 +7481,19 @@ return function(M,options)
             end)
         end
         function app:NotifyDiscord()
+            --[[ TODO: Uncomment and replace with your own Discord invite URL later.
             if self.DiscordToast then self.DiscordToast:Destroy() end
             local camera=workspace.CurrentCamera
             local width=math.max(120,math.min(280,(camera and camera.ViewportSize.X or 304)-24))
             local toast=ui:Panel(self.Screen,{AnchorPoint=Vector2.new(1,1),Position=UDim2.new(1,-12,1,-14),Size=UDim2.new(0,width,0,60),ZIndex=150})
             ui:Icon(toast,'check',20,UDim2.fromOffset(12,20),ui.T.Accent)
             ui:Label(toast,'Join Discord · News & updates',12,UDim2.fromOffset(42,4),UDim2.new(1,-52,0,26))
-            ui:Label(toast,'discord.gg/pWPs7428wE',12,UDim2.fromOffset(42,30),UDim2.new(1,-52,0,24))
+            ui:Label(toast,'discord.gg/YOUR_INVITE_HERE',12,UDim2.fromOffset(42,30),UDim2.new(1,-52,0,24))
             self.DiscordToast=toast
             task.delay(5,function()
                 if not runtime.Destroyed and self.DiscordToast==toast then toast:Destroy();self.DiscordToast=nil end
             end)
+            ]]
         end
         function app:Copy(text,title)
             if type(setclipboard)=='function' then
@@ -7593,19 +7595,19 @@ return function(M,options)
                 local section=M.Section(ui,scroll,'What’s new',false,function() popup:Close() end)
                 controls.Paragraph(section.Body,{Title='UI 3.1.0 · September 7, 2026',Text='Phonk release: shared feedback, movable launcher, saved UI preferences and mobile layout.',Height=80})
                 local cards=ui:Frame(scroll,{Size=UDim2.new(1,0,0,280)})
+                --[[ TODO: Uncomment once your Discord invite is configured above.
                 local community=card(cards,'Community',0,'Allain-afk Hub Community','Meet the community','messages-square','Copy Discord Link',function() app:Copy(options.DiscordInvite,'Discord invite') end)
                 local discord=ui:New('ImageLabel',community,{BackgroundTransparency=1,Position=UDim2.new(1,-36,0,7),Size=UDim2.fromOffset(24,24),Image=''})
                 assets:Load('Discord',discord)
-                local updates=card(cards,'Updates',0.5,'Release Notes','See the latest changes','megaphone','View Changelog',function()
+                ]]
+                local updates=card(cards,'Updates',0,'Release Notes','See the latest changes','megaphone','View Changelog',function()
                     popup:Message('Header update','• Full-width title bar and accent divider\n• Clearer sections and larger titles\n• Report character counter\n• Shared PC/mobile report destination\n\n'..(options.Manifest and 'Connected to the supplied game controls.' or 'Standalone UI demonstration.'))
                 end)
-                app.AboutCards={Container=cards,Community=community,Updates=updates}
+                app.AboutCards={Container=cards,Updates=updates}
                 local function arrangeCards()
-                    local narrow=app.LayoutWidth-app.SidebarWidth-32<460
-                    cards.Size=UDim2.new(1,0,0,narrow and 572 or 280)
-                    community.Size=UDim2.new(narrow and 1 or 0.5,narrow and 0 or -6,0,280)
-                    updates.Size=community.Size
-                    updates.Position=narrow and UDim2.fromOffset(0,292) or UDim2.new(0.5,6,0,0)
+                    cards.Size=UDim2.new(1,0,0,280)
+                    updates.Size=UDim2.new(1,0,0,280)
+                    updates.Position=UDim2.fromOffset(0,0)
                 end
                 table.insert(ui.LayoutCallbacks,arrangeCards); arrangeCards()
             else

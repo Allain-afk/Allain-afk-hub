@@ -31,7 +31,8 @@
   X:Slider(perf,"FPSCap","FPS Limit","Apply an executor FPS cap when supported.",10,240,C.FPSCap,function(v)if type(setfpscap)=="function"then pcall(setfpscap,v)end end,{Accent="warning"})
   local other=X:Feature(misc,"Misc","Shared miscellaneous utilities.",{Accent="purple"})
   X:Switch(other,"AntiAFK","Anti-AFK","Keep the local client active.",C.AntiAFK,function(v)U.AntiAFK=v end,{Accent="purple"})
-  X:Action(other,"Copy Discord Invite","Copy the shared Serenity Discord link.",function()local ok=CopyText(DISCORD);X:Notify("Discord",ok and"Invite copied."or"Clipboard unavailable.",ok)end,{Accent="purple",ButtonText="COPY"})
+  -- TODO: Uncomment once your Discord invite is configured in head-01.txt
+  -- X:Action(other,"Copy Discord Invite","Copy the shared Allain-afk Hub Discord link.",function()local ok=CopyText(DISCORD);X:Notify("Discord",ok and"Invite copied."or"Clipboard unavailable.",ok)end,{Accent="purple",ButtonText="COPY"})
 
   local cm=X:Feature(settings,"Config Manager","Auto-save is always used when file APIs exist.",{Accent="mint",Expanded=true})
   X:Live(cm,"Auto Save",fs()and"Enabled"or"File API unavailable");X:Live(cm,"Config Path",path)

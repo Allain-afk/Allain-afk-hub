@@ -117,6 +117,7 @@ local function startPresence(app,manifest)
     end)
 end
 
+--[[ TODO: Uncomment and set your own Discord invite URL later.
 -- Startup Discord invite: at most once every 24 hours, shared across games.
 -- The root loader uses this same timestamp marker, preventing duplicate copies in one execution.
 local function showDiscord(app)
@@ -139,7 +140,7 @@ local function showDiscord(app)
     if last>now then last=now end
     if now-last<cooldown then return end
 
-    local invite="https://discord.gg/pWPs7428wE"
+    local invite="https://discord.gg/YOUR_INVITE_HERE"
     local providers={setclipboard,toclipboard,type(syn)=="table" and syn.write_clipboard or false}
 
     for i=1,3 do
@@ -162,6 +163,7 @@ local function showDiscord(app)
 
     window:NotifyDiscord()
 end
+]]
 
 local Serenity={Version="3.2.0",APIVersion=3}
 
@@ -185,7 +187,7 @@ function Serenity.Build(manifest,options)
 
     local app=uiModule.Build(manifest,options)
     pcall(startPresence,app,manifest)
-    pcall(showDiscord,app)
+    -- pcall(showDiscord,app) -- Disabled until Discord server is configured
     return app
 end
 

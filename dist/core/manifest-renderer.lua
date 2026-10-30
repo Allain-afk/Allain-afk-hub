@@ -243,6 +243,7 @@ function Adapter:_addDefaultDashboardIdentity(pageObject, leftColumn)
         end
 
         local communityCard
+        --[[ TODO: Uncomment to re-enable Discord CommunityCard later
         if type(W.CommunityCard) == "function" then
             communityCard = W:CommunityCard(group,{
                 Kicker="ALLAIN-AFK HUB COMMUNITY",
@@ -252,6 +253,7 @@ function Adapter:_addDefaultDashboardIdentity(pageObject, leftColumn)
                 Accent=Color3.fromRGB(166,126,255),
             })
         end
+        ]]
 
         self.Features["Dashboard.__SerenityAccount"] = group
         self.FeatureTargets["Dashboard.__SerenityAccount"] = {
@@ -265,6 +267,7 @@ function Adapter:_addDefaultDashboardIdentity(pageObject, leftColumn)
             Page = "Dashboard",
             Target = groupFrame or group,
         })
+        --[[ TODO: Uncomment to re-enable Discord search entry later
         self:_registerSearch({
             Id = "Dashboard.__SerenityDiscord",
             Kind = "Community",
@@ -274,6 +277,7 @@ function Adapter:_addDefaultDashboardIdentity(pageObject, leftColumn)
             Feature = "Account",
             Target = communityCard or groupFrame or group,
         })
+        ]]
         return group
     end
 
@@ -296,6 +300,7 @@ function Adapter:_addDefaultDashboardIdentity(pageObject, leftColumn)
     end
 
     local discordRow
+    --[[ TODO: Uncomment to re-enable Discord row later
     if type(W.Paragraph) == "function" then
         discordRow = W:Paragraph(
             content,
@@ -316,6 +321,7 @@ function Adapter:_addDefaultDashboardIdentity(pageObject, leftColumn)
             {Accent="purple",ButtonText="COPY"}
         ) or discordRow
     end
+    ]]
 
     self.Features["Dashboard.__SerenityAccount"] = content
     self.FeatureTargets["Dashboard.__SerenityAccount"] = {
@@ -331,6 +337,7 @@ function Adapter:_addDefaultDashboardIdentity(pageObject, leftColumn)
         Target = featureItem and featureItem.Frame or content,
         Opener = featureItem,
     })
+    --[[ TODO: Uncomment to re-enable Discord search entry later
     self:_registerSearch({
         Id = "Dashboard.__SerenityDiscord",
         Kind = "Community",
@@ -341,6 +348,7 @@ function Adapter:_addDefaultDashboardIdentity(pageObject, leftColumn)
         Target = discordRow or (featureItem and featureItem.Frame or content),
         Opener = featureItem,
     })
+    ]]
     return content
 end
 

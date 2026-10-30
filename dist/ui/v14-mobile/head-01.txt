@@ -17,7 +17,7 @@ local ENV=(getgenv and getgenv()) or _G
 -- Official runtime ownership is handled by core/runtime.lua
 
 local LOGO="rbxthumb://type=Asset&id=89023606689629&w=420&h=420"
-local DISCORD="https://discord.gg/ccsvkN7Pp"
+local DISCORD="" -- "https://discord.gg/YOUR_INVITE_HERE"
 
 local Icons={
  Dashboard="rbxassetid://10723424646",
