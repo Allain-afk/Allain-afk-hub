@@ -1,4 +1,4 @@
--- Serenity shared supplemental localization rows for th.
+-- Allain-afk Hub shared supplemental localization rows for th.
 return {
     ["Automation Status"] = "สถานะระบบอัตโนมัติ",
     ["Current Task"] = "งานปัจจุบัน",
@@ -7,7 +7,7 @@ return {
     ["Eggs Broken"] = "ไข่ที่ทำลายแล้ว",
     ["What's New"] = "มีอะไรใหม่",
     ["Final Release"] = "เวอร์ชันสุดท้าย",
-    ["Serenity production automation status."] = "สถานะระบบอัตโนมัติของ Serenity เวอร์ชันใช้งานจริง",
+    ["Allain-afk Hub production automation status."] = "สถานะระบบอัตโนมัติของ Allain-afk Hub เวอร์ชันใช้งานจริง",
     ["Priority-controlled movement automation."] = "ระบบเคลื่อนที่อัตโนมัติตามลำดับความสำคัญ",
     ["Demon Event"] = "กิจกรรม Demon",
     ["Auto Demon Event"] = "Demon Event อัตโนมัติ",
@@ -83,7 +83,7 @@ return {
     ["Manual-only safety mode: instantly completes your own Merge Egg prompt only after you actually press it. It never auto-grabs nearby base eggs and never fires just from proximity."] = "โหมดความปลอดภัยแบบกดเองเท่านั้น จะทำ Merge Egg prompt ของคุณให้เสร็จทันทีหลังจากคุณกดจริง ๆ ไม่หยิบไข่ในฐานอัตโนมัติและไม่ทำงานเพียงเพราะอยู่ใกล้",
     ["Tutorial, performance and lag-reduction controls."] = "ตัวควบคุมบทสอน ประสิทธิภาพ และลดแลค",
     ["Auto Complete Tutorial"] = "ทำ Tutorial อัตโนมัติ",
-    ["Default ON. If the game's tutorial is active, Serenity pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Serenity automation locked until you finish the tutorial manually."] = "ค่าเริ่มต้นเปิด หาก Tutorial ของเกมกำลังทำงาน Serenity จะพักระบบ gameplay ปกติทั้งหมดและทำ Tutorial จริงให้เสร็จก่อน หากปิด ระบบอัตโนมัติปกติจะยังล็อกจนกว่าคุณจะทำ Tutorial เองเสร็จ",
+    ["Default ON. If the game's tutorial is active, Allain-afk Hub pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Allain-afk Hub automation locked until you finish the tutorial manually."] = "ค่าเริ่มต้นเปิด หาก Tutorial ของเกมกำลังทำงาน Allain-afk Hub จะพักระบบ gameplay ปกติทั้งหมดและทำ Tutorial จริงให้เสร็จก่อน หากปิด ระบบอัตโนมัติปกติจะยังล็อกจนกว่าคุณจะทำ Tutorial เองเสร็จ",
     ["Tutorial Status"] = "สถานะ Tutorial",
     ["Checking..."] = "กำลังตรวจสอบ...",
     ["Anti AFK"] = "กัน AFK",

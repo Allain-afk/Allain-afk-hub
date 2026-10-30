@@ -1,4 +1,4 @@
-# Serenity presence and execution analytics
+# Allain-afk Hub presence and execution analytics
 
 ## Meaning
 - Active now: estimated unique Roblox accounts with a heartbeat in the last 600 seconds. Rejoins and multiple devices on the same account update one entry. Different accounts held by one person still count separately.

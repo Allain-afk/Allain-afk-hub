@@ -1,10 +1,10 @@
 -- ALLAIN-AFK HUB // ACCESS V2 ENTRY
 
--- One-time cleanup: only SerenityHub/.access is used by the current gate.
+-- One-time cleanup: only Allain-afk-Hub/.access is used by the current gate.
 pcall(function()
     if type(delfile)=="function" and type(isfile)=="function"
-        and isfile("SerenityHub/.access-v2.dat") then
-        delfile("SerenityHub/.access-v2.dat")
+        and isfile("Allain-afk-Hub/.access-v2.dat") then
+        delfile("Allain-afk-Hub/.access-v2.dat")
     end
 end)
 

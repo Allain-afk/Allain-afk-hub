@@ -26,7 +26,7 @@
         })
     end)
 
-    -- RC1.2 PERMANENT SERENITY ORB
+    -- RC1.2 PERMANENT ALLAIN-AFK HUB ORB
     -- The orb is always visible. It toggles the main window rather than
     -- acting as a restore-only launcher.
     local minimized = false

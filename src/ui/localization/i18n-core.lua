@@ -20,6 +20,12 @@ function I18N.new(selection,detected)
     end
     function self:T(source)
         if type(source)~='string' or source=='' then return source end
+        if source=='SERENITY HUB' then source='ALLAIN-AFK HUB'
+        elseif source:find('Serenity',1,true) then
+            source=source:gsub('Serenity Hub','Allain-afk Hub'):gsub('Serenity%-hub','Allain-afk-Hub'):gsub('Serenity','Allain-afk Hub')
+        elseif source:find('SERENITY',1,true) then
+            source=source:gsub('SERENITY HUB','ALLAIN-AFK HUB'):gsub('SERENITY','ALLAIN-AFK HUB')
+        end
         local pack=I18N.Packs[self:Language()] or {}
         if pack[source] then return pack[source] end
         -- Only translate dictionary-backed labels with numeric values. Never rewrite names.

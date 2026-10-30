@@ -245,7 +245,7 @@ function Adapter:_addDefaultDashboardIdentity(pageObject, leftColumn)
         local communityCard
         if type(W.CommunityCard) == "function" then
             communityCard = W:CommunityCard(group,{
-                Kicker="SERENITY COMMUNITY",
+                Kicker="ALLAIN-AFK HUB COMMUNITY",
                 Title="Join the Allain-afk Hub Discord",
                 Description=self.Library.DiscordInvite,
                 ButtonText="Copy Discord Invite",
@@ -360,7 +360,7 @@ function Adapter:Build()
             Height = self.Manifest.MobileHeight or 420,
             Theme = "Serenity",
             DisableInternalConfig = true,
-            ConfigPath = "SerenityHub/_renderer-internal-disabled.json",
+            ConfigPath = "Allain-afk-Hub/_renderer-internal-disabled.json",
         }
     end
 

@@ -1,4 +1,4 @@
--- Serenity shared supplemental localization rows for ru.
+-- Allain-afk Hub shared supplemental localization rows for ru.
 return {
     ["Automation Status"] = "Статус автоматизации",
     ["Current Task"] = "Текущая задача",
@@ -7,7 +7,7 @@ return {
     ["Eggs Broken"] = "Разбитые яйца",
     ["What's New"] = "Что нового",
     ["Final Release"] = "Финальный релиз",
-    ["Serenity production automation status."] = "Статус рабочей автоматизации Serenity.",
+    ["Allain-afk Hub production automation status."] = "Статус рабочей автоматизации Allain-afk Hub.",
     ["Priority-controlled movement automation."] = "Автоматизация движения по приоритету.",
     ["Demon Event"] = "Событие Demon",
     ["Auto Demon Event"] = "Авто Demon Event",
@@ -83,7 +83,7 @@ return {
     ["Manual-only safety mode: instantly completes your own Merge Egg prompt only after you actually press it. It never auto-grabs nearby base eggs and never fires just from proximity."] = "Только ручной безопасный режим: мгновенно завершает ваш Merge Egg prompt лишь после реального нажатия. Никогда не забирает яйца на базе автоматически и не срабатывает только из-за близости.",
     ["Tutorial, performance and lag-reduction controls."] = "Управление обучением, производительностью и снижением лагов.",
     ["Auto Complete Tutorial"] = "Автопрохождение обучения",
-    ["Default ON. If the game's tutorial is active, Serenity pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Serenity automation locked until you finish the tutorial manually."] = "По умолчанию ВКЛ. Если обучение игры активно, Serenity приостанавливает обычные процессы и сначала проходит настоящее обучение. При выключении обычная автоматизация остаётся заблокированной, пока вы не завершите обучение вручную.",
+    ["Default ON. If the game's tutorial is active, Allain-afk Hub pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Allain-afk Hub automation locked until you finish the tutorial manually."] = "По умолчанию ВКЛ. Если обучение игры активно, Allain-afk Hub приостанавливает обычные процессы и сначала проходит настоящее обучение. При выключении обычная автоматизация остаётся заблокированной, пока вы не завершите обучение вручную.",
     ["Tutorial Status"] = "Статус обучения",
     ["Checking..."] = "Проверка...",
     ["Anti AFK"] = "Анти-AFK",

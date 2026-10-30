@@ -90,8 +90,8 @@ pcall(function()
             if type(t)=="string" then
                 if t=="SERENITY HUB" then
                     inst.Text="ALLAIN-AFK HUB"
-                elseif t:find("SERENITY HUB",1,true) or t:find("Serenity Hub",1,true) then
-                    inst.Text=t:gsub("SERENITY HUB","ALLAIN-AFK HUB"):gsub("Serenity Hub","Allain-afk Hub")
+                elseif t:find("SERENITY",1,true) or t:find("Serenity",1,true) then
+                    inst.Text=t:gsub("SERENITY HUB","ALLAIN-AFK HUB"):gsub("Serenity Hub","Allain-afk Hub"):gsub("SERENITY","ALLAIN-AFK HUB"):gsub("Serenity","Allain-afk Hub")
                 end
             end
         end
@@ -137,7 +137,7 @@ pcall(function()
     local env=(type(getgenv)=="function" and getgenv()) or _G
     local now=os.time()
     local cooldown=24*60*60
-    local marker="SerenityHub/discord-notice-at.txt"
+    local marker="Allain-afk-Hub/discord-notice-at.txt"
     local last=tonumber(env.__SERENITY_DISCORD_NOTICE_AT) or 0
 
     if type(readfile)=="function" then
@@ -163,7 +163,7 @@ pcall(function()
     env.__SERENITY_DISCORD_NOTICE_AT=now
 
     if type(writefile)=="function" then
-        if type(makefolder)=="function" then pcall(makefolder,"SerenityHub") end
+        if type(makefolder)=="function" then pcall(makefolder,"Allain-afk-Hub") end
         pcall(writefile,marker,tostring(now))
     end
 end)

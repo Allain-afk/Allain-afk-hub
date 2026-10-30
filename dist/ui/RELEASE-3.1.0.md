@@ -1,4 +1,4 @@
-# Serenity UI 3.1.0 — Phonk rollout
+# Allain-afk Hub UI 3.1.0 — Phonk rollout
 
 Approved by the owner after RC1 testing on September 7, 2026.
 

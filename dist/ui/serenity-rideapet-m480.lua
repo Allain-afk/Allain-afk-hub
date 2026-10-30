@@ -4089,7 +4089,7 @@ do
         local data=type(title)=="table" and title or {Title=title,Message=message,Duration=duration,Kind=kind}
         local seconds=tonumber(data.Duration) or 5
         if seconds~=seconds then seconds=5 end
-        local item={Title=tostring(data.Title or "Serenity"):sub(1,100),Message=tostring(data.Message or data.Text or ""):sub(1,300),Duration=math.clamp(seconds,3,30),Kind=data.Kind or "Info"}
+        local item={Title=tostring(data.Title or "Allain-afk Hub"):sub(1,100),Message=tostring(data.Message or data.Text or ""):sub(1,300),Duration=math.clamp(seconds,3,30),Kind=data.Kind or "Info"}
         if runtime.Destroyed then return false end
         if #queue>=20 then table.remove(queue,1) end
         table.insert(queue,item);pump();return true
@@ -4540,7 +4540,7 @@ if type(rapManifest)=="table" and type(rapManifest.Pages)=="table" then
             })
             local appearance=Section.new(columns.Left,deps,{
                 Title="Appearance",
-                Description="Personalize Serenity without changing your Ride A Pet automation.",
+                Description="Personalize Allain-afk Hub without changing your Ride A Pet automation.",
             })
             settingsWidgets.Accent=Select.new(appearance.Body,deps,{
                 Title="Color theme accent",
@@ -4606,7 +4606,7 @@ if type(rapManifest)=="table" and type(rapManifest.Pages)=="table" then
             end))
             local appearanceReset=Instance.new("TextButton")
             appearanceReset.Name="RestoreSerenityAppearance"
-            appearanceReset.Text="Restore Serenity appearance"
+            appearanceReset.Text="Restore Allain-afk Hub appearance"
             appearanceReset.Size=UDim2.new(1,0,0,39)
             appearanceReset.Font=Enum.Font.GothamMedium
             appearanceReset.TextSize=12
@@ -4739,7 +4739,7 @@ if type(rapManifest)=="table" and type(rapManifest.Pages)=="table" then
                     entry[1].Visible=query=="" or string.find(string.lower(entry[2]),query,1,true)~=nil
                 end
             end))
-            local footer=Section.new(page,deps,{Title="About Serenity"})
+            local footer=Section.new(page,deps,{Title="About Allain-afk Hub"})
             textLabel(footer.Body,"M4.78 Ride A Pet UI · Directory snapshot 2026-10-20. Configured route is not live support verification.",56,Tokens.Color.TextMuted,11)
         end
         aboutEntry=app:AddPage({Id="About",Title="About",Icon="info",Order=19})
@@ -5085,7 +5085,7 @@ if type(rapManifest)=="table" and type(rapManifest.Pages)=="table" then
         for _,item in ipairs({
             {"Live activity","Status stays current even when the window is minimized."},
             {"Responsive game pages","Your existing game controls now fit desktop and mobile layouts."},
-            {"Refined Serenity interface","New icons, themed settings and saved Quick Menu positions."},
+            {"Refined Allain-afk Hub interface","New icons, themed settings and saved Quick Menu positions."},
         }) do
             local itemFrame=Instance.new("Frame")
             itemFrame.Size=UDim2.new(1,0,0,44)
@@ -5138,7 +5138,7 @@ if type(rapManifest)=="table" and type(rapManifest.Pages)=="table" then
         app:SelectPage("Dashboard")
 
         -- No gameplay state is written by presentation restores.
-        local prefsPath="SerenityHub/RideAPet_M478_UI_Prefs.json"
+        local prefsPath="Allain-afk-Hub/RideAPet_M478_UI_Prefs.json"
         local http=game:GetService("HttpService")
         local canRead=type(readfile)=="function" and type(isfile)=="function"
         if canRead then
@@ -5171,7 +5171,7 @@ if type(rapManifest)=="table" and type(rapManifest.Pages)=="table" then
                 saveThread=nil
                 if runtime.Destroyed then return end
                 pcall(function()
-                    if type(makefolder)=="function" then makefolder("SerenityHub") end
+                    if type(makefolder)=="function" then makefolder("Allain-afk-Hub") end
                     writefile(prefsPath,http:JSONEncode({
                         View=app:GetViewState(),
                         UI=app:GetUIPreferences(),

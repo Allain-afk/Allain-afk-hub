@@ -1,4 +1,4 @@
--- Serenity shared supplemental localization rows for de.
+-- Allain-afk Hub shared supplemental localization rows for de.
 return {
     ["Automation Status"] = "Automatisierungsstatus",
     ["Current Task"] = "Aktuelle Aufgabe",
@@ -7,7 +7,7 @@ return {
     ["Eggs Broken"] = "Zerbrochene Eier",
     ["What's New"] = "Neuigkeiten",
     ["Final Release"] = "Finale Version",
-    ["Serenity production automation status."] = "Status der Serenity-Produktionsautomatisierung.",
+    ["Allain-afk Hub production automation status."] = "Status der Allain-afk Hub-Produktionsautomatisierung.",
     ["Priority-controlled movement automation."] = "Prioritätsgesteuerte Bewegungsautomatisierung.",
     ["Demon Event"] = "Demon-Event",
     ["Auto Demon Event"] = "Demon-Event automatisch",
@@ -83,7 +83,7 @@ return {
     ["Manual-only safety mode: instantly completes your own Merge Egg prompt only after you actually press it. It never auto-grabs nearby base eggs and never fires just from proximity."] = "Nur manueller Sicherheitsmodus: schließt deinen eigenen Merge-Egg-Prompt erst sofort ab, nachdem du ihn wirklich gedrückt hast. Nimmt keine nahen Basis-Eier automatisch und löst nicht nur durch Nähe aus.",
     ["Tutorial, performance and lag-reduction controls."] = "Steuerung für Tutorial, Leistung und Lag-Reduzierung.",
     ["Auto Complete Tutorial"] = "Tutorial automatisch abschließen",
-    ["Default ON. If the game's tutorial is active, Serenity pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Serenity automation locked until you finish the tutorial manually."] = "Standardmäßig AN. Wenn das Spiel-Tutorial aktiv ist, pausiert Serenity alle normalen Gameplay-Worker und schließt zuerst das echte Tutorial ab. Bei AUS bleibt die normale Automatisierung gesperrt, bis du das Tutorial manuell beendest.",
+    ["Default ON. If the game's tutorial is active, Allain-afk Hub pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Allain-afk Hub automation locked until you finish the tutorial manually."] = "Standardmäßig AN. Wenn das Spiel-Tutorial aktiv ist, pausiert Allain-afk Hub alle normalen Gameplay-Worker und schließt zuerst das echte Tutorial ab. Bei AUS bleibt die normale Automatisierung gesperrt, bis du das Tutorial manuell beendest.",
     ["Tutorial Status"] = "Tutorial-Status",
     ["Checking..."] = "Prüfung...",
     ["Anti AFK"] = "Anti-AFK",

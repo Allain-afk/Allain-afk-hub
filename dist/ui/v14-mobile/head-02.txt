@@ -27,7 +27,7 @@ function Library.Create(opt)
  local Defaults={Theme=X.ThemeName,BackgroundStyle="Glass",ShellTransparency=14,FeatureTransparency=48,ControlTransparency=34,PremiumMotion=true,ReduceLag=false,Disable3D=false,BlackScreen=false,WhiteScreen=false,AntiAFK=false,NoClip=false,InfiniteJump=false,FPSCap=60,LastPage="Dashboard"}
  for k,v in pairs(opt.DefaultConfig or{})do Defaults[k]=v end
  local C={}for k,v in pairs(Defaults)do C[k]=v end
- local path=opt.ConfigPath or("SerenityHub/config-%s.json"):format(tostring(game.GameId));local saveId=0
+ local path=opt.ConfigPath or("Allain-afk-Hub/config-%s.json"):format(tostring(game.GameId));local saveId=0
  local function fs()return opt.DisableInternalConfig~=true and type(writefile)=="function" and type(readfile)=="function" and type(isfile)=="function" end
  if fs() then pcall(function()if isfile(path)then local d=HttpService:JSONDecode(readfile(path))for k,v in pairs(d)do
   if Defaults[k]~=nil then C[k]=v end
@@ -36,6 +36,6 @@ function Library.Create(opt)
   C.FeatureTransparency=math.clamp(tonumber(d.BackgroundTransparency) or 48,30,72)
  end
  end end)end
- local function save()if not fs()then return false end if type(makefolder)=="function"then pcall(makefolder,"SerenityHub")end return pcall(function()writefile(path,HttpService:JSONEncode(C))end)end
+ local function save()if not fs()then return false end if type(makefolder)=="function"then pcall(makefolder,"Allain-afk-Hub")end return pcall(function()writefile(path,HttpService:JSONEncode(C))end)end
  local function later()saveId+=1;local id=saveId;task.delay(.4,function()if id==saveId and not X.Destroyed then save()end end)end
  X.Config=C;X.DefaultConfig=Defaults;X.ConfigPath=path

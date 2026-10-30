@@ -1,4 +1,4 @@
--- Serenity shared entrypoint: shared V3 rollout; Phonk retains its device-approved adapter.
+-- Allain-afk Hub shared entrypoint: shared V3 rollout; Phonk retains its device-approved adapter.
 local BASE="https://raw.githubusercontent.com/Allain-afk/Allain-afk-hub/main/"
 local cache={}
 local CACHE_TAG="3.2.0-bsae-i18n1"
@@ -126,7 +126,7 @@ local function showDiscord(app)
     local env=(type(getgenv)=="function" and getgenv()) or _G
     local now=os.time()
     local cooldown=24*60*60
-    local path="SerenityHub/discord-notice-at.txt"
+    local path="Allain-afk-Hub/discord-notice-at.txt"
     local last=tonumber(env.__SERENITY_DISCORD_NOTICE_AT) or 0
 
     if type(readfile)=="function" then
@@ -156,7 +156,7 @@ local function showDiscord(app)
     env.__SERENITY_DISCORD_NOTICE_AT=now
 
     if type(writefile)=="function" then
-        if type(makefolder)=="function" then pcall(makefolder,"SerenityHub") end
+        if type(makefolder)=="function" then pcall(makefolder,"Allain-afk-Hub") end
         pcall(writefile,path,tostring(now))
     end
 

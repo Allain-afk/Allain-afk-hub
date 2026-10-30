@@ -23,7 +23,7 @@ function Config.new(options)
     self.SchemaVersion = tonumber(options.SchemaVersion) or 1
     self.Defaults = copy(options.Defaults or {})
     self.Data = copy(self.Defaults)
-    self.Path = options.Path or ("SerenityHub/config-%s.json"):format(tostring(game.GameId))
+    self.Path = options.Path or ("Allain-afk-Hub/config-%s.json"):format(tostring(game.GameId))
     self.Migrations = options.Migrations or {}
     self.SaveSerial = 0
     self.Destroyed = false
@@ -99,7 +99,7 @@ end
 
 function Config:SaveNow()
     if not self.FileAPI or self.Destroyed then return false end
-    if type(makefolder)=="function" then pcall(makefolder,"SerenityHub") end
+    if type(makefolder)=="function" then pcall(makefolder,"Allain-afk-Hub") end
     self.Data.__ConfigVersion = self.SchemaVersion
     return pcall(function()
         writefile(self.Path,HttpService:JSONEncode(self.Data))

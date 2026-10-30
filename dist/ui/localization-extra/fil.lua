@@ -1,4 +1,4 @@
--- Serenity shared supplemental localization rows for fil.
+-- Allain-afk Hub shared supplemental localization rows for fil.
 return {
     ["Automation Status"] = "Katayuan ng Automation",
     ["Current Task"] = "Kasalukuyang Gawain",
@@ -7,7 +7,7 @@ return {
     ["Eggs Broken"] = "Mga Nabasag na Itlog",
     ["What's New"] = "Ano ang Bago",
     ["Final Release"] = "Final na Release",
-    ["Serenity production automation status."] = "Katayuan ng production automation ng Serenity.",
+    ["Allain-afk Hub production automation status."] = "Katayuan ng production automation ng Allain-afk Hub.",
     ["Priority-controlled movement automation."] = "Movement automation na kontrolado ng priority.",
     ["Demon Event"] = "Demon Event",
     ["Auto Demon Event"] = "Awtomatikong Demon Event",
@@ -83,7 +83,7 @@ return {
     ["Manual-only safety mode: instantly completes your own Merge Egg prompt only after you actually press it. It never auto-grabs nearby base eggs and never fires just from proximity."] = "Manual-only na safety mode: agad nitong kinukumpleto ang sarili mong Merge Egg prompt pagkatapos mo talagang pindutin. Hindi ito kusang kukuha ng mga itlog sa base at hindi gagana dahil lang malapit ka.",
     ["Tutorial, performance and lag-reduction controls."] = "Mga control para sa tutorial, performance at lag reduction.",
     ["Auto Complete Tutorial"] = "Awtomatikong Tapusin ang Tutorial",
-    ["Default ON. If the game's tutorial is active, Serenity pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Serenity automation locked until you finish the tutorial manually."] = "Default ON. Kapag active ang tutorial ng game, ipo-pause ng Serenity ang normal gameplay workers at tatapusin muna ang totoong tutorial. Kapag OFF, mananatiling naka-lock ang normal automation hanggang matapos mo nang manual ang tutorial.",
+    ["Default ON. If the game's tutorial is active, Allain-afk Hub pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Allain-afk Hub automation locked until you finish the tutorial manually."] = "Default ON. Kapag active ang tutorial ng game, ipo-pause ng Allain-afk Hub ang normal gameplay workers at tatapusin muna ang totoong tutorial. Kapag OFF, mananatiling naka-lock ang normal automation hanggang matapos mo nang manual ang tutorial.",
     ["Tutorial Status"] = "Katayuan ng Tutorial",
     ["Checking..."] = "Sinusuri...",
     ["Anti AFK"] = "Anti AFK",

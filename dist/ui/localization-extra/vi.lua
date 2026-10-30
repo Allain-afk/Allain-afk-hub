@@ -1,4 +1,4 @@
--- Serenity shared supplemental localization rows for vi.
+-- Allain-afk Hub shared supplemental localization rows for vi.
 return {
     ["Automation Status"] = "Trạng thái tự động hóa",
     ["Current Task"] = "Tác vụ hiện tại",
@@ -7,7 +7,7 @@ return {
     ["Eggs Broken"] = "Trứng đã phá",
     ["What's New"] = "Có gì mới",
     ["Final Release"] = "Bản phát hành cuối",
-    ["Serenity production automation status."] = "Trạng thái tự động hóa bản phát hành Serenity.",
+    ["Allain-afk Hub production automation status."] = "Trạng thái tự động hóa bản phát hành Allain-afk Hub.",
     ["Priority-controlled movement automation."] = "Tự động di chuyển theo thứ tự ưu tiên.",
     ["Demon Event"] = "Sự kiện Demon",
     ["Auto Demon Event"] = "Tự động Demon Event",
@@ -83,7 +83,7 @@ return {
     ["Manual-only safety mode: instantly completes your own Merge Egg prompt only after you actually press it. It never auto-grabs nearby base eggs and never fires just from proximity."] = "Chế độ an toàn chỉ thủ công: hoàn tất ngay Merge Egg prompt của bạn sau khi bạn thật sự nhấn. Không tự lấy trứng gần căn cứ và không kích hoạt chỉ vì đứng gần.",
     ["Tutorial, performance and lag-reduction controls."] = "Điều khiển hướng dẫn, hiệu suất và giảm lag.",
     ["Auto Complete Tutorial"] = "Tự động hoàn thành hướng dẫn",
-    ["Default ON. If the game's tutorial is active, Serenity pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Serenity automation locked until you finish the tutorial manually."] = "Mặc định BẬT. Nếu tutorial của game đang hoạt động, Serenity tạm dừng mọi tiến trình gameplay bình thường và hoàn thành tutorial thật trước. Khi TẮT, tự động hóa bình thường vẫn bị khóa cho đến khi bạn tự hoàn thành tutorial.",
+    ["Default ON. If the game's tutorial is active, Allain-afk Hub pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Allain-afk Hub automation locked until you finish the tutorial manually."] = "Mặc định BẬT. Nếu tutorial của game đang hoạt động, Allain-afk Hub tạm dừng mọi tiến trình gameplay bình thường và hoàn thành tutorial thật trước. Khi TẮT, tự động hóa bình thường vẫn bị khóa cho đến khi bạn tự hoàn thành tutorial.",
     ["Tutorial Status"] = "Trạng thái hướng dẫn",
     ["Checking..."] = "Đang kiểm tra...",
     ["Anti AFK"] = "Chống AFK",

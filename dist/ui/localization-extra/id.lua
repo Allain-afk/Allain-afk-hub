@@ -1,4 +1,4 @@
--- Serenity shared supplemental localization rows for id.
+-- Allain-afk Hub shared supplemental localization rows for id.
 return {
     ["Automation Status"] = "Status Otomatisasi",
     ["Current Task"] = "Tugas Saat Ini",
@@ -7,7 +7,7 @@ return {
     ["Eggs Broken"] = "Telur Dipecahkan",
     ["What's New"] = "Yang Baru",
     ["Final Release"] = "Rilis Final",
-    ["Serenity production automation status."] = "Status otomatisasi produksi Serenity.",
+    ["Allain-afk Hub production automation status."] = "Status otomatisasi produksi Allain-afk Hub.",
     ["Priority-controlled movement automation."] = "Otomatisasi gerakan yang dikendalikan prioritas.",
     ["Demon Event"] = "Demon Event",
     ["Auto Demon Event"] = "Demon Event Otomatis",
@@ -83,7 +83,7 @@ return {
     ["Manual-only safety mode: instantly completes your own Merge Egg prompt only after you actually press it. It never auto-grabs nearby base eggs and never fires just from proximity."] = "Mode aman manual saja: langsung menyelesaikan Merge Egg prompt milikmu setelah kamu benar-benar menekannya. Tidak pernah otomatis mengambil telur basis di dekatmu atau aktif hanya karena dekat.",
     ["Tutorial, performance and lag-reduction controls."] = "Kontrol tutorial, performa, dan pengurangan lag.",
     ["Auto Complete Tutorial"] = "Selesaikan Tutorial Otomatis",
-    ["Default ON. If the game's tutorial is active, Serenity pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Serenity automation locked until you finish the tutorial manually."] = "Default ON. Jika tutorial game aktif, Serenity menjeda semua worker gameplay normal dan menyelesaikan tutorial asli terlebih dahulu. Jika OFF, otomatisasi normal tetap terkunci sampai kamu menyelesaikan tutorial secara manual.",
+    ["Default ON. If the game's tutorial is active, Allain-afk Hub pauses every normal gameplay worker and completes the real tutorial first. Turning this OFF keeps normal Allain-afk Hub automation locked until you finish the tutorial manually."] = "Default ON. Jika tutorial game aktif, Allain-afk Hub menjeda semua worker gameplay normal dan menyelesaikan tutorial asli terlebih dahulu. Jika OFF, otomatisasi normal tetap terkunci sampai kamu menyelesaikan tutorial secara manual.",
     ["Tutorial Status"] = "Status Tutorial",
     ["Checking..."] = "Memeriksa...",
     ["Anti AFK"] = "Anti AFK",

@@ -132,7 +132,7 @@ return function(manifest, options)
         Defaults = collectDefaults(manifest),
         Path = options.ConfigPath
             or manifest.ConfigPath
-            or ("SerenityHub/config-%s.json")
+            or ("Allain-afk-Hub/config-%s.json")
                 :format(tostring(game.GameId)),
         Migrations = manifest.ConfigMigrations or {},
     })

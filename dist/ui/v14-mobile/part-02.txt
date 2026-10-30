@@ -53,7 +53,7 @@
  local cont=New("Frame",{BackgroundTransparency=1,Position=UDim2.fromOffset(164,0),Size=UDim2.new(1,-164,1,0),Parent=body})
  local ptitle=New("TextLabel",{BackgroundTransparency=1,Position=UDim2.fromOffset(12,5),Size=UDim2.new(1,-24,0,25),Font=Enum.Font.GothamBold,Text="Dashboard",TextSize=15,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=14,Parent=cont});bind(ptitle,"TextColor3","Text")
  local ph=New("Frame",{BackgroundTransparency=1,Position=UDim2.fromOffset(9,34),Size=UDim2.new(1,-18,1,-40),ClipsDescendants=true,ZIndex=13,Parent=cont})
- -- RC1.2 PERMANENT SERENITY ORB
+ -- RC1.2 PERMANENT ALLAIN-AFK HUB ORB
  -- Always visible whether the main UI is open or hidden.
  local launcher=New("TextButton",{BackgroundTransparency=.12,BorderSizePixel=0,Position=UDim2.new(0,20,.5,-28),Size=UDim2.fromOffset(56,56),Text="",Visible=true,ZIndex=30,Parent=g});bind(launcher,"BackgroundColor3","Panel");shellGlass(launcher);Round(launcher,999);bind(Stroke(launcher,T.A1,.4),"Color","A1");New("ImageLabel",{BackgroundTransparency=1,Position=UDim2.fromOffset(7,7),Size=UDim2.fromOffset(42,42),Image=LOGO,ScaleType=Enum.ScaleType.Fit,ZIndex=31,Parent=launcher})
 
@@ -131,7 +131,7 @@
  X.SearchEntries={}
  local searchShade=New("TextButton",{BackgroundTransparency=.72,BorderSizePixel=0,Position=UDim2.fromOffset(0,50),Size=UDim2.new(1,0,1,-50),Text="",AutoButtonColor=false,Visible=false,ZIndex=38,Parent=main});bind(searchShade,"BackgroundColor3","BG")
  local searchPanel=New("Frame",{AnchorPoint=Vector2.new(1,0),Position=UDim2.new(1,-8,0,56),Size=UDim2.fromOffset(410,350),BackgroundTransparency=.08,BorderSizePixel=0,Visible=false,ZIndex=40,Parent=main});bind(searchPanel,"BackgroundColor3","Panel");shellGlass(searchPanel);Round(searchPanel,12);local searchPanelStroke=Stroke(searchPanel,T.A2,.38);bind(searchPanelStroke,"Color","A2")
- local searchTitle=New("TextLabel",{BackgroundTransparency=1,Position=UDim2.fromOffset(13,8),Size=UDim2.new(1,-26,0,18),Font=Enum.Font.GothamBold,Text="SEARCH SERENITY",TextSize=10,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=41,Parent=searchPanel});bind(searchTitle,"TextColor3","Text")
+ local searchTitle=New("TextLabel",{BackgroundTransparency=1,Position=UDim2.fromOffset(13,8),Size=UDim2.new(1,-26,0,18),Font=Enum.Font.GothamBold,Text="SEARCH ALLAIN-AFK HUB",TextSize=10,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=41,Parent=searchPanel});bind(searchTitle,"TextColor3","Text")
  local searchField=New("Frame",{Position=UDim2.fromOffset(11,32),Size=UDim2.new(1,-22,0,38),BackgroundTransparency=.30,BorderSizePixel=0,ZIndex=41,Parent=searchPanel});bind(searchField,"BackgroundColor3","Panel2");Round(searchField,9);local searchFieldStroke=Stroke(searchField,T.Stroke,.58);bind(searchFieldStroke,"Color","Stroke")
  local searchGlyph=New("ImageLabel",{BackgroundTransparency=1,Position=UDim2.fromOffset(11,11),Size=UDim2.fromOffset(16,16),Image=Icons.Search,ZIndex=42,Parent=searchField});bind(searchGlyph,"ImageColor3","A2")
  local searchBox=New("TextBox",{BackgroundTransparency=1,Position=UDim2.fromOffset(35,0),Size=UDim2.new(1,-43,1,0),ClearTextOnFocus=false,Font=Enum.Font.Gotham,PlaceholderText="Search pages, features, or settings...",Text="",TextSize=10,TextXAlignment=Enum.TextXAlignment.Left,ZIndex=42,Parent=searchField});bind(searchBox,"TextColor3","Text");bind(searchBox,"PlaceholderColor3","Dim")

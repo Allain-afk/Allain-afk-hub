@@ -16,7 +16,7 @@ return {
         ["Titanic Egg ESP"] = "Titanic Egg ESP",
         ["Noclip"] = "Noclip",
         ["Tutorial"] = "Tutorial",
-        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Serenity never writes WalkSpeed."] = "Gumagamit ng smooth Heartbeat movement sa loob ng Demon Event. Sinusunod ng tween speed ang tunay na movement speed ng game at hindi kailanman binabago ng Serenity ang WalkSpeed.",
+        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Allain-afk Hub never writes WalkSpeed."] = "Gumagamit ng smooth Heartbeat movement sa loob ng Demon Event. Sinusunod ng tween speed ang tunay na movement speed ng game at hindi kailanman binabago ng Allain-afk Hub ang WalkSpeed.",
         ["OFF by default. When ON, eggs marked by the game's official Titanic=true / TitanicEgg data are preferred over ordinary qualifying Break eggs."] = "Default OFF. Kapag ON, inuuna ang mga itlog na may opisyal na Titanic=true / TitanicEgg data ng game kaysa sa ordinaryong kwalipikadong Break eggs.",
         ["Uses the current FuseMachineRequest slot-recipe flow directly (Sync / Deposit / Return / Fuse) without travelling to the machine. Safety filters still apply. OFF by default."] = "Direktang ginagamit ang kasalukuyang FuseMachineRequest slot-recipe flow (Sync / Deposit / Return / Fuse) nang hindi pumupunta sa machine. Gumagana pa rin ang safety filters. Default OFF.",
         ["Keeps this many copies of each recipe animal before Auto Fuse may deposit one."] = "Pinapanatili ang ganitong karaming kopya ng bawat recipe animal bago payagang mag-deposit ang Auto Fuse.",
@@ -25,7 +25,7 @@ return {
         ["Low-overhead egg visibility helpers."] = "Magagaang na helper para makita ang mga itlog.",
         ["Shows only eggs proven by the game's official Titanic=true / TitanicEgg marker."] = "Ipinapakita lang ang mga itlog na napatunayan ng opisyal na Titanic=true / TitanicEgg marker ng game.",
         ["Shows live breakable eggs. Use the rarity filter below to keep the screen clean."] = "Ipinapakita ang live breakable eggs. Gamitin ang rarity filter sa ibaba para manatiling malinis ang screen.",
-        ["Manual character noclip. Serenity's temporary Stage1/Break noclip still manages itself separately."] = "Manual na character noclip. Hiwalay pa ring pinamamahalaan ng Serenity ang pansamantalang Stage1/Break noclip nito.",
+        ["Manual character noclip. Allain-afk Hub's temporary Stage1/Break noclip still manages itself separately."] = "Manual na character noclip. Hiwalay pa ring pinamamahalaan ng Allain-afk Hub ang pansamantalang Stage1/Break noclip nito.",
     },
 
     id = {
@@ -43,7 +43,7 @@ return {
         ["Titanic Egg ESP"] = "ESP Titanic Egg",
         ["Noclip"] = "Noclip",
         ["Tutorial"] = "Tutorial",
-        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Serenity never writes WalkSpeed."] = "Menggunakan gerakan Heartbeat yang halus di dalam Demon Event. Kecepatan tween mengikuti kecepatan gerak asli dari game dan Serenity tidak pernah menulis WalkSpeed.",
+        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Allain-afk Hub never writes WalkSpeed."] = "Menggunakan gerakan Heartbeat yang halus di dalam Demon Event. Kecepatan tween mengikuti kecepatan gerak asli dari game dan Allain-afk Hub tidak pernah menulis WalkSpeed.",
         ["OFF by default. When ON, eggs marked by the game's official Titanic=true / TitanicEgg data are preferred over ordinary qualifying Break eggs."] = "Default OFF. Saat ON, telur yang ditandai data resmi Titanic=true / TitanicEgg dari game diprioritaskan dibanding telur Break biasa yang memenuhi syarat.",
         ["Uses the current FuseMachineRequest slot-recipe flow directly (Sync / Deposit / Return / Fuse) without travelling to the machine. Safety filters still apply. OFF by default."] = "Menggunakan alur resep-slot FuseMachineRequest saat ini secara langsung (Sync / Deposit / Return / Fuse) tanpa pergi ke mesin. Filter keamanan tetap berlaku. Default OFF.",
         ["Keeps this many copies of each recipe animal before Auto Fuse may deposit one."] = "Menyimpan sejumlah salinan ini untuk setiap hewan resep sebelum Auto Fuse boleh mendepositkan satu.",
@@ -52,7 +52,7 @@ return {
         ["Low-overhead egg visibility helpers."] = "Bantuan visibilitas telur yang ringan.",
         ["Shows only eggs proven by the game's official Titanic=true / TitanicEgg marker."] = "Hanya menampilkan telur yang dibuktikan oleh penanda resmi Titanic=true / TitanicEgg dari game.",
         ["Shows live breakable eggs. Use the rarity filter below to keep the screen clean."] = "Menampilkan telur breakable yang aktif. Gunakan filter rarity di bawah agar layar tetap bersih.",
-        ["Manual character noclip. Serenity's temporary Stage1/Break noclip still manages itself separately."] = "Noclip karakter manual. Noclip sementara Stage1/Break milik Serenity tetap dikelola secara terpisah.",
+        ["Manual character noclip. Allain-afk Hub's temporary Stage1/Break noclip still manages itself separately."] = "Noclip karakter manual. Noclip sementara Stage1/Break milik Allain-afk Hub tetap dikelola secara terpisah.",
     },
 
     vi = {
@@ -70,7 +70,7 @@ return {
         ["Titanic Egg ESP"] = "ESP Titanic Egg",
         ["Noclip"] = "Noclip",
         ["Tutorial"] = "Hướng dẫn",
-        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Serenity never writes WalkSpeed."] = "Dùng chuyển động Heartbeat mượt trong Demon Event. Tốc độ tween theo tốc độ di chuyển thật do game xác định và Serenity không bao giờ ghi WalkSpeed.",
+        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Allain-afk Hub never writes WalkSpeed."] = "Dùng chuyển động Heartbeat mượt trong Demon Event. Tốc độ tween theo tốc độ di chuyển thật do game xác định và Allain-afk Hub không bao giờ ghi WalkSpeed.",
         ["OFF by default. When ON, eggs marked by the game's official Titanic=true / TitanicEgg data are preferred over ordinary qualifying Break eggs."] = "Mặc định TẮT. Khi BẬT, trứng có dữ liệu chính thức Titanic=true / TitanicEgg của game được ưu tiên hơn trứng Break thường đủ điều kiện.",
         ["Uses the current FuseMachineRequest slot-recipe flow directly (Sync / Deposit / Return / Fuse) without travelling to the machine. Safety filters still apply. OFF by default."] = "Dùng trực tiếp luồng công thức-slot FuseMachineRequest hiện tại (Sync / Deposit / Return / Fuse) mà không cần đi tới máy. Bộ lọc an toàn vẫn áp dụng. Mặc định TẮT.",
         ["Keeps this many copies of each recipe animal before Auto Fuse may deposit one."] = "Giữ lại số bản sao này của mỗi pet trong công thức trước khi Auto Fuse được phép gửi một con.",
@@ -79,7 +79,7 @@ return {
         ["Low-overhead egg visibility helpers."] = "Công cụ hiển thị trứng nhẹ.",
         ["Shows only eggs proven by the game's official Titanic=true / TitanicEgg marker."] = "Chỉ hiển thị trứng được xác nhận bằng dấu chính thức Titanic=true / TitanicEgg của game.",
         ["Shows live breakable eggs. Use the rarity filter below to keep the screen clean."] = "Hiển thị trứng breakable đang hoạt động. Dùng bộ lọc độ hiếm bên dưới để giữ màn hình gọn.",
-        ["Manual character noclip. Serenity's temporary Stage1/Break noclip still manages itself separately."] = "Noclip nhân vật thủ công. Noclip Stage1/Break tạm thời của Serenity vẫn được quản lý riêng.",
+        ["Manual character noclip. Allain-afk Hub's temporary Stage1/Break noclip still manages itself separately."] = "Noclip nhân vật thủ công. Noclip Stage1/Break tạm thời của Allain-afk Hub vẫn được quản lý riêng.",
     },
 
     th = {
@@ -97,7 +97,7 @@ return {
         ["Titanic Egg ESP"] = "ESP Titanic Egg",
         ["Noclip"] = "Noclip",
         ["Tutorial"] = "บทช่วยสอน",
-        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Serenity never writes WalkSpeed."] = "ใช้การเคลื่อนที่ Heartbeat ที่ลื่นไหลภายใน Demon Event ความเร็ว tween จะตามความเร็วเคลื่อนที่จริงจากเกม และ Serenity จะไม่เขียนค่า WalkSpeed",
+        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Allain-afk Hub never writes WalkSpeed."] = "ใช้การเคลื่อนที่ Heartbeat ที่ลื่นไหลภายใน Demon Event ความเร็ว tween จะตามความเร็วเคลื่อนที่จริงจากเกม และ Allain-afk Hub จะไม่เขียนค่า WalkSpeed",
         ["OFF by default. When ON, eggs marked by the game's official Titanic=true / TitanicEgg data are preferred over ordinary qualifying Break eggs."] = "ค่าเริ่มต้นเป็น OFF เมื่อ ON ไข่ที่มีข้อมูลทางการ Titanic=true / TitanicEgg ของเกมจะถูกให้ความสำคัญเหนือไข่ Break ปกติที่ผ่านเงื่อนไข",
         ["Uses the current FuseMachineRequest slot-recipe flow directly (Sync / Deposit / Return / Fuse) without travelling to the machine. Safety filters still apply. OFF by default."] = "ใช้ขั้นตอนสูตรสล็อต FuseMachineRequest ปัจจุบันโดยตรง (Sync / Deposit / Return / Fuse) โดยไม่ต้องเดินทางไปที่เครื่อง ตัวกรองความปลอดภัยยังคงทำงาน ค่าเริ่มต้นเป็น OFF",
         ["Keeps this many copies of each recipe animal before Auto Fuse may deposit one."] = "เก็บสัตว์แต่ละชนิดในสูตรไว้ตามจำนวนนี้ก่อนที่ Auto Fuse จะนำหนึ่งตัวไปฝาก",
@@ -106,7 +106,7 @@ return {
         ["Low-overhead egg visibility helpers."] = "ตัวช่วยแสดงไข่ที่ใช้ทรัพยากรต่ำ",
         ["Shows only eggs proven by the game's official Titanic=true / TitanicEgg marker."] = "แสดงเฉพาะไข่ที่ยืนยันด้วยเครื่องหมายทางการ Titanic=true / TitanicEgg ของเกม",
         ["Shows live breakable eggs. Use the rarity filter below to keep the screen clean."] = "แสดงไข่ breakable ที่ยังใช้งานอยู่ ใช้ตัวกรอง rarity ด้านล่างเพื่อให้หน้าจอไม่รก",
-        ["Manual character noclip. Serenity's temporary Stage1/Break noclip still manages itself separately."] = "Noclip ตัวละครแบบ manual ส่วน Noclip ชั่วคราวของ Stage1/Break ใน Serenity จะจัดการแยกต่างหาก",
+        ["Manual character noclip. Allain-afk Hub's temporary Stage1/Break noclip still manages itself separately."] = "Noclip ตัวละครแบบ manual ส่วน Noclip ชั่วคราวของ Stage1/Break ใน Allain-afk Hub จะจัดการแยกต่างหาก",
     },
 
     es = {
@@ -124,7 +124,7 @@ return {
         ["Titanic Egg ESP"] = "ESP de Titanic Egg",
         ["Noclip"] = "Noclip",
         ["Tutorial"] = "Tutorial",
-        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Serenity never writes WalkSpeed."] = "Usa movimiento Heartbeat suave dentro del Demon Event. La velocidad del tween sigue la velocidad real de movimiento derivada del juego y Serenity nunca modifica WalkSpeed.",
+        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Allain-afk Hub never writes WalkSpeed."] = "Usa movimiento Heartbeat suave dentro del Demon Event. La velocidad del tween sigue la velocidad real de movimiento derivada del juego y Allain-afk Hub nunca modifica WalkSpeed.",
         ["OFF by default. When ON, eggs marked by the game's official Titanic=true / TitanicEgg data are preferred over ordinary qualifying Break eggs."] = "Desactivado por defecto. Al activarlo, los huevos marcados por los datos oficiales Titanic=true / TitanicEgg del juego tienen prioridad sobre los huevos Break normales que cumplan los filtros.",
         ["Uses the current FuseMachineRequest slot-recipe flow directly (Sync / Deposit / Return / Fuse) without travelling to the machine. Safety filters still apply. OFF by default."] = "Usa directamente el flujo actual de receta por ranuras de FuseMachineRequest (Sync / Deposit / Return / Fuse) sin viajar a la máquina. Los filtros de seguridad siguen aplicándose. Desactivado por defecto.",
         ["Keeps this many copies of each recipe animal before Auto Fuse may deposit one."] = "Conserva esta cantidad de copias de cada mascota de la receta antes de que Auto Fuse pueda depositar una.",
@@ -133,7 +133,7 @@ return {
         ["Low-overhead egg visibility helpers."] = "Ayudas ligeras de visibilidad de huevos.",
         ["Shows only eggs proven by the game's official Titanic=true / TitanicEgg marker."] = "Muestra solo huevos confirmados por el marcador oficial Titanic=true / TitanicEgg del juego.",
         ["Shows live breakable eggs. Use the rarity filter below to keep the screen clean."] = "Muestra huevos rompibles activos. Usa el filtro de rareza de abajo para mantener la pantalla limpia.",
-        ["Manual character noclip. Serenity's temporary Stage1/Break noclip still manages itself separately."] = "Noclip manual del personaje. El noclip temporal de Stage1/Break de Serenity sigue gestionándose por separado.",
+        ["Manual character noclip. Allain-afk Hub's temporary Stage1/Break noclip still manages itself separately."] = "Noclip manual del personaje. El noclip temporal de Stage1/Break de Allain-afk Hub sigue gestionándose por separado.",
     },
 
     pt = {
@@ -151,7 +151,7 @@ return {
         ["Titanic Egg ESP"] = "ESP de Titanic Egg",
         ["Noclip"] = "Noclip",
         ["Tutorial"] = "Tutorial",
-        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Serenity never writes WalkSpeed."] = "Usa movimento Heartbeat suave dentro do Demon Event. A velocidade do tween segue a velocidade real de movimento derivada do jogo e o Serenity nunca altera WalkSpeed.",
+        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Allain-afk Hub never writes WalkSpeed."] = "Usa movimento Heartbeat suave dentro do Demon Event. A velocidade do tween segue a velocidade real de movimento derivada do jogo e o Allain-afk Hub nunca altera WalkSpeed.",
         ["OFF by default. When ON, eggs marked by the game's official Titanic=true / TitanicEgg data are preferred over ordinary qualifying Break eggs."] = "Desligado por padrão. Quando ligado, ovos marcados pelos dados oficiais Titanic=true / TitanicEgg do jogo têm prioridade sobre ovos Break comuns que atendam aos filtros.",
         ["Uses the current FuseMachineRequest slot-recipe flow directly (Sync / Deposit / Return / Fuse) without travelling to the machine. Safety filters still apply. OFF by default."] = "Usa diretamente o fluxo atual de receita por slots do FuseMachineRequest (Sync / Deposit / Return / Fuse) sem ir até a máquina. Os filtros de segurança continuam valendo. Desligado por padrão.",
         ["Keeps this many copies of each recipe animal before Auto Fuse may deposit one."] = "Mantém esta quantidade de cópias de cada pet da receita antes que o Auto Fuse possa depositar um.",
@@ -160,7 +160,7 @@ return {
         ["Low-overhead egg visibility helpers."] = "Recursos leves para visualizar ovos.",
         ["Shows only eggs proven by the game's official Titanic=true / TitanicEgg marker."] = "Mostra apenas ovos comprovados pelo marcador oficial Titanic=true / TitanicEgg do jogo.",
         ["Shows live breakable eggs. Use the rarity filter below to keep the screen clean."] = "Mostra ovos quebráveis ativos. Use o filtro de raridade abaixo para manter a tela limpa.",
-        ["Manual character noclip. Serenity's temporary Stage1/Break noclip still manages itself separately."] = "Noclip manual do personagem. O noclip temporário de Stage1/Break do Serenity continua sendo gerenciado separadamente.",
+        ["Manual character noclip. Allain-afk Hub's temporary Stage1/Break noclip still manages itself separately."] = "Noclip manual do personagem. O noclip temporário de Stage1/Break do Allain-afk Hub continua sendo gerenciado separadamente.",
     },
 
     fr = {
@@ -178,7 +178,7 @@ return {
         ["Titanic Egg ESP"] = "ESP Titanic Egg",
         ["Noclip"] = "Noclip",
         ["Tutorial"] = "Tutoriel",
-        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Serenity never writes WalkSpeed."] = "Utilise un mouvement Heartbeat fluide dans le Demon Event. La vitesse du tween suit la vitesse réelle dérivée du jeu et Serenity ne modifie jamais WalkSpeed.",
+        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Allain-afk Hub never writes WalkSpeed."] = "Utilise un mouvement Heartbeat fluide dans le Demon Event. La vitesse du tween suit la vitesse réelle dérivée du jeu et Allain-afk Hub ne modifie jamais WalkSpeed.",
         ["OFF by default. When ON, eggs marked by the game's official Titanic=true / TitanicEgg data are preferred over ordinary qualifying Break eggs."] = "Désactivé par défaut. Lorsqu'il est activé, les œufs marqués par les données officielles Titanic=true / TitanicEgg du jeu sont prioritaires sur les œufs Break ordinaires qui correspondent aux filtres.",
         ["Uses the current FuseMachineRequest slot-recipe flow directly (Sync / Deposit / Return / Fuse) without travelling to the machine. Safety filters still apply. OFF by default."] = "Utilise directement le flux actuel de recette par emplacements de FuseMachineRequest (Sync / Deposit / Return / Fuse) sans se déplacer jusqu'à la machine. Les filtres de sécurité restent actifs. Désactivé par défaut.",
         ["Keeps this many copies of each recipe animal before Auto Fuse may deposit one."] = "Conserve ce nombre de copies de chaque animal de la recette avant qu'Auto Fuse puisse en déposer un.",
@@ -187,7 +187,7 @@ return {
         ["Low-overhead egg visibility helpers."] = "Outils légers de visibilité des œufs.",
         ["Shows only eggs proven by the game's official Titanic=true / TitanicEgg marker."] = "Affiche uniquement les œufs confirmés par le marqueur officiel Titanic=true / TitanicEgg du jeu.",
         ["Shows live breakable eggs. Use the rarity filter below to keep the screen clean."] = "Affiche les œufs cassables actifs. Utilisez le filtre de rareté ci-dessous pour garder l'écran clair.",
-        ["Manual character noclip. Serenity's temporary Stage1/Break noclip still manages itself separately."] = "Noclip manuel du personnage. Le noclip temporaire Stage1/Break de Serenity reste géré séparément.",
+        ["Manual character noclip. Allain-afk Hub's temporary Stage1/Break noclip still manages itself separately."] = "Noclip manuel du personnage. Le noclip temporaire Stage1/Break de Allain-afk Hub reste géré séparément.",
     },
 
     de = {
@@ -205,7 +205,7 @@ return {
         ["Titanic Egg ESP"] = "Titanic-Egg-ESP",
         ["Noclip"] = "Noclip",
         ["Tutorial"] = "Tutorial",
-        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Serenity never writes WalkSpeed."] = "Verwendet im Demon Event eine flüssige Heartbeat-Bewegung. Die Tween-Geschwindigkeit folgt der echten vom Spiel abgeleiteten Bewegungsgeschwindigkeit und Serenity schreibt niemals WalkSpeed.",
+        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Allain-afk Hub never writes WalkSpeed."] = "Verwendet im Demon Event eine flüssige Heartbeat-Bewegung. Die Tween-Geschwindigkeit folgt der echten vom Spiel abgeleiteten Bewegungsgeschwindigkeit und Allain-afk Hub schreibt niemals WalkSpeed.",
         ["OFF by default. When ON, eggs marked by the game's official Titanic=true / TitanicEgg data are preferred over ordinary qualifying Break eggs."] = "Standardmäßig AUS. Wenn AN, werden Eier mit den offiziellen Titanic=true / TitanicEgg-Daten des Spiels vor normalen passenden Break-Eiern bevorzugt.",
         ["Uses the current FuseMachineRequest slot-recipe flow directly (Sync / Deposit / Return / Fuse) without travelling to the machine. Safety filters still apply. OFF by default."] = "Verwendet den aktuellen FuseMachineRequest-Slot-Rezeptablauf direkt (Sync / Deposit / Return / Fuse), ohne zur Maschine zu laufen. Sicherheitsfilter gelten weiterhin. Standardmäßig AUS.",
         ["Keeps this many copies of each recipe animal before Auto Fuse may deposit one."] = "Behält so viele Kopien jedes Rezept-Begleiters, bevor Auto Fuse einen einzahlen darf.",
@@ -214,7 +214,7 @@ return {
         ["Low-overhead egg visibility helpers."] = "Leichte Hilfen zur Sichtbarkeit von Eiern.",
         ["Shows only eggs proven by the game's official Titanic=true / TitanicEgg marker."] = "Zeigt nur Eier, die durch den offiziellen Titanic=true / TitanicEgg-Marker des Spiels bestätigt sind.",
         ["Shows live breakable eggs. Use the rarity filter below to keep the screen clean."] = "Zeigt aktive zerstörbare Eier. Nutze den Seltenheitsfilter unten, um die Anzeige übersichtlich zu halten.",
-        ["Manual character noclip. Serenity's temporary Stage1/Break noclip still manages itself separately."] = "Manueller Charakter-Noclip. Serenitys temporärer Stage1/Break-Noclip wird weiterhin separat verwaltet.",
+        ["Manual character noclip. Allain-afk Hub's temporary Stage1/Break noclip still manages itself separately."] = "Manueller Charakter-Noclip. Allain-afk Hubs temporärer Stage1/Break-Noclip wird weiterhin separat verwaltet.",
     },
 
     ru = {
@@ -232,7 +232,7 @@ return {
         ["Titanic Egg ESP"] = "ESP Titanic Egg",
         ["Noclip"] = "Noclip",
         ["Tutorial"] = "Обучение",
-        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Serenity never writes WalkSpeed."] = "Использует плавное Heartbeat-движение внутри Demon Event. Скорость tween следует реальной скорости движения, рассчитанной игрой, а Serenity никогда не изменяет WalkSpeed.",
+        ["Uses smooth Heartbeat movement inside the Demon Event. Tween speed follows your real game-derived movement speed and Allain-afk Hub never writes WalkSpeed."] = "Использует плавное Heartbeat-движение внутри Demon Event. Скорость tween следует реальной скорости движения, рассчитанной игрой, а Allain-afk Hub никогда не изменяет WalkSpeed.",
         ["OFF by default. When ON, eggs marked by the game's official Titanic=true / TitanicEgg data are preferred over ordinary qualifying Break eggs."] = "По умолчанию ВЫКЛ. Когда ВКЛ, яйца с официальными данными игры Titanic=true / TitanicEgg имеют приоритет над обычными подходящими Break-яйцами.",
         ["Uses the current FuseMachineRequest slot-recipe flow directly (Sync / Deposit / Return / Fuse) without travelling to the machine. Safety filters still apply. OFF by default."] = "Напрямую использует текущую схему рецепта по слотам FuseMachineRequest (Sync / Deposit / Return / Fuse) без перемещения к машине. Фильтры безопасности продолжают действовать. По умолчанию ВЫКЛ.",
         ["Keeps this many copies of each recipe animal before Auto Fuse may deposit one."] = "Сохраняет указанное число копий каждого питомца из рецепта, прежде чем Auto Fuse сможет внести одного.",
@@ -241,6 +241,6 @@ return {
         ["Low-overhead egg visibility helpers."] = "Лёгкие средства отображения яиц.",
         ["Shows only eggs proven by the game's official Titanic=true / TitanicEgg marker."] = "Показывает только яйца, подтверждённые официальным маркером игры Titanic=true / TitanicEgg.",
         ["Shows live breakable eggs. Use the rarity filter below to keep the screen clean."] = "Показывает активные разрушаемые яйца. Используйте фильтр редкости ниже, чтобы не загромождать экран.",
-        ["Manual character noclip. Serenity's temporary Stage1/Break noclip still manages itself separately."] = "Ручной noclip персонажа. Временный noclip Stage1/Break Serenity по-прежнему управляется отдельно.",
+        ["Manual character noclip. Allain-afk Hub's temporary Stage1/Break noclip still manages itself separately."] = "Ручной noclip персонажа. Временный noclip Stage1/Break Allain-afk Hub по-прежнему управляется отдельно.",
     },
 }

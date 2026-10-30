@@ -3,11 +3,11 @@
 -- Temporary global switch. Set to true to restore the key system.
 local ACCESS_ENABLED=false
 
--- One-time cleanup: only SerenityHub/.access is used by the current gate.
+-- One-time cleanup: only Allain-afk-Hub/.access is used by the current gate.
 pcall(function()
     if type(delfile)=="function" and type(isfile)=="function"
-        and isfile("SerenityHub/.access-v2.dat") then
-        delfile("SerenityHub/.access-v2.dat")
+        and isfile("Allain-afk-Hub/.access-v2.dat") then
+        delfile("Allain-afk-Hub/.access-v2.dat")
     end
 end)
 
@@ -163,55 +163,55 @@ local path
 local chunkName
 if targetDrain then
     path=ACCESS_ENABLED and "dist/access-v2/core.lua" or "dist/games/drain-water.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2" or "@SerenityHub/Game-DrainWater"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2" or "@AllainAfkHub/Game-DrainWater"
 elseif targetSellOres then
     path=ACCESS_ENABLED and "dist/access-v2/sell-ores.lua" or "dist/games/sell_ores.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-SellOres" or "@SerenityHub/Game-SellOres"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-SellOres" or "@AllainAfkHub/Game-SellOres"
 elseif targetCutGrass then
     path=ACCESS_ENABLED and "dist/access-v2/cut-grass-v2.lua" or "dist/games/1-Cut-Grass-Adventure.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-CutGrass-V2" or "@SerenityHub/Game-CutGrass"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-CutGrass-V2" or "@AllainAfkHub/Game-CutGrass"
 elseif targetGreedy then
     path=ACCESS_ENABLED and "dist/access-v2/greedy-growers.lua" or "dist/games/GreedyGrowers.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-GreedyGrowers" or "@SerenityHub/Game-GreedyGrowers"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-GreedyGrowers" or "@AllainAfkHub/Game-GreedyGrowers"
 elseif targetChicken then
     path=ACCESS_ENABLED and "dist/access-v2/chicken-farm.lua" or "dist/games/Chickenfarm.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-ChickenFarm" or "@SerenityHub/Game-ChickenFarm"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-ChickenFarm" or "@AllainAfkHub/Game-ChickenFarm"
 elseif targetMonkey then
     path=ACCESS_ENABLED and "dist/access-v2/monkey.lua" or "dist/games/plus-1-monkey-evolution.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-Monkey" or "@SerenityHub/Game-Monkey"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-Monkey" or "@AllainAfkHub/Game-Monkey"
 elseif targetSuperhero then
     path=ACCESS_ENABLED and "dist/access-v2/superhero.lua" or "dist/games/plus-1-superhero-evolution.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-Superhero" or "@SerenityHub/Game-Superhero"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-Superhero" or "@AllainAfkHub/Game-Superhero"
 elseif targetHeroesRNG then
     path=ACCESS_ENABLED and "dist/access-v2/core.lua" or "dist/runtime/games/Heroes_RNG.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-HeroesRNG" or "@SerenityHub/Game-HeroesRNG"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-HeroesRNG" or "@AllainAfkHub/Game-HeroesRNG"
 elseif targetThrowCoin then
     path=ACCESS_ENABLED and "dist/access-v2/core.lua" or "dist/games/Throw_a_coin.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-ThrowCoin" or "@SerenityHub/Game-ThrowCoin"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-ThrowCoin" or "@AllainAfkHub/Game-ThrowCoin"
 elseif targetCDT then
     path=ACCESS_ENABLED and "dist/access-v2/core.lua" or "dist/games/Cheating_During_Testing.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-CDT" or "@SerenityHub/Game-CDT"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-CDT" or "@AllainAfkHub/Game-CDT"
 elseif targetRATF then
     path=ACCESS_ENABLED and "dist/access-v2/roll-anime-to-fight.lua" or "dist/games/Rollanimetofight.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-RollAnimeToFight" or "@SerenityHub/Game-RollAnimeToFight"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-RollAnimeToFight" or "@AllainAfkHub/Game-RollAnimeToFight"
 elseif targetDino then
     path=ACCESS_ENABLED and "dist/access-v2/core.lua" or "dist/runtime/games/DinoEvolution.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-DinoEvolution" or "@SerenityHub/Game-DinoEvolution"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-DinoEvolution" or "@AllainAfkHub/Game-DinoEvolution"
 elseif targetPhonk then
     path=ACCESS_ENABLED and "dist/access-v2/phonkevolution.lua" or "dist/games/phonkevolution.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-PhonkEvolution" or "@SerenityHub/Game-PhonkEvolution"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-PhonkEvolution" or "@AllainAfkHub/Game-PhonkEvolution"
 elseif targetUnscathed then
     path=ACCESS_ENABLED and "dist/access-v2/core.lua" or "dist/games/unscathedrng.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-UnscathedRNG" or "@SerenityHub/Game-UnscathedRNG"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-UnscathedRNG" or "@AllainAfkHub/Game-UnscathedRNG"
 elseif targetMine then
     path=ACCESS_ENABLED and "dist/access-v2/core.lua" or "dist/runtime/games/mineamountain.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-MineAMountain" or "@SerenityHub/Game-MineAMountain"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-MineAMountain" or "@AllainAfkHub/Game-MineAMountain"
 elseif targetNeedle then
     path=ACCESS_ENABLED and "dist/access-v2/core.lua" or "dist/runtime/games/SEARCH FOR THE NEEDLE.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-SearchForTheNeedle" or "@SerenityHub/Game-SearchForTheNeedle"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-SearchForTheNeedle" or "@AllainAfkHub/Game-SearchForTheNeedle"
 elseif targetTongue then
     path=ACCESS_ENABLED and "dist/access-v2/core.lua" or "dist/runtime/games/TongueEscape.lua"
-    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-TongueEscape" or "@SerenityHub/Game-TongueEscape"
+    chunkName=ACCESS_ENABLED and "@SerenityHub/AccessV2-TongueEscape" or "@AllainAfkHub/Game-TongueEscape"
 else
     path="dist/access-v2/core.lua"
     chunkName="@SerenityHub/AccessV2"
