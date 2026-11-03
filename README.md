@@ -33,6 +33,8 @@ Allain-afk Hub is made to stay simple to use and easy to come back to. Open it w
 - **Lift a Cube**
 - **+1 Loot to Forge**
 - **Lift Rock for Eggs**
+- **Throw Food For Animals**
+- **Steal a Pet and Ride It**
 
 ---
 
